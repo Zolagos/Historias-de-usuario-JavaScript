@@ -1,0 +1,6 @@
+const textito = document.getElementById('texto')
+const botoncito = document.getElementById('boton')
+const lista = document.getElementById('listaNotas')
+console.log(textito)
+console.log(botoncito)
+console.log(lista)
