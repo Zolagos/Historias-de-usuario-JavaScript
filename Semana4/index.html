@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>semana4</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+        <h1 id="identificador"></h1>
+        <input id="inputProducto" placeholder="Producto" type="text"></input>
+        <input id="inputPrecio" placeholder="Precio" type="number"></input>
+        <input id="inputDescripcion" placeholder="Descripcion" type="text"></input>
+        <button id="botonAgregar">Agregar</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del Producto</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+    </table>
+
+
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

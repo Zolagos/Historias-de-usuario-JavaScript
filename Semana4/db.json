@@ -1,0 +1,11 @@
+{
+  "productos": [
+    {
+      "nombre": "fghnt",
+      "descripcion": "sdb",
+      "precio": 42,
+      "id": "W589dLoYWJE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
